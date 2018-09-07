@@ -20,7 +20,7 @@
             Answer = AmountGBP * USD
         Else
             Answer = 0
-            Console.WriteLine("Please Enter The Three Letter Currency Code")
+            Console.WriteLine("Please Try Again")
         End If
         Console.WriteLine("£ " & AmountGBP & " Is " & Answer & " " & Currency & "")
         Console.ReadLine()
